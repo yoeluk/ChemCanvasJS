@@ -3,9 +3,9 @@ ChemCanvasJS
 
 The development of a free (MIT licensed) tool for drawing molecules and reactions.
 
-Please note that this tool is being developed as we speak and currently I am the only developer so if you install the scripts be prepared to find out that there things as yet unimplemented. See the a short summary of feature to be implemented:
+Please note that this tool is being developed as we speak and currently I am the only developer so if you install the scripts be prepared to find that there are things unimplemented. See the a short summary of features as yet to be implemented:
 
-1. Triple bonds are not yet implemented.
+1. Triple bonds are not yet implemented (this is trivial by comparison, I have been busy with other stuff).
 2. Implicit Hs on hetereoatoms are not added automatically (although they are acounting for when making calculations)
 3. Drawing from a hetereoatom is not yet implemented
 4. The ring tools needs various improvements, for example, adding a ring at the end of a chain is not yet implemented.
