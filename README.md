@@ -22,6 +22,6 @@ Things that are implemented that you might find useful (some may not be yet avai
 
   
 
-![ChemCanvas screenshot](/chemcanvas.png "ChemCanvas screenshot")
+![ChemCanvas screenshot](screenshots/chemcanvas.png "ChemCanvas screenshot")
 
 
