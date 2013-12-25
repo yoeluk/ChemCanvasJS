@@ -12,6 +12,7 @@ Please note that this tool is being developed as we speak and currently I am the
 
 
 Things that are implemented that you might find useful (some may not be yet available):
+
 1. Import mol files from your computer and smiles string.
 2. Export mol file (the first molecule only if various molecules are drawn) and smiles string representation of the molecule.
 3. Exporting SVG nodes. ChemCanvas is able to import these svgs as the molecules that they were which can be useful in cases were you need to support editing.
