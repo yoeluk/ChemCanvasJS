@@ -1,0 +1,103 @@
+.chem-canvas-container {
+    border: 2px outset #D1D1D1;
+    position: relative;
+}
+.top-toolbar {
+    top: 0px;
+    left: 0px;
+    height: 38px;
+    width: 100%;
+    background-color: #DDDDDC;
+    position: absolute;
+}
+.left-toolbar {
+    top: 0px;
+    left: 0px;
+    padding-right: 4px !important;
+    width: 38px;
+    height: 100%;
+    background-color: #DDDDDC;
+    position: absolute;
+}
+.right-toolbar {
+    top: 0px;
+    right: 0px;
+    width: 38px;
+    height: 100%;
+    background-color: #DDDDDC;
+    position: absolute;
+}
+.chem-canvas {
+    border: 1px inset #D1D1D1;
+    top: 38px;
+    left: 38px;
+    background-color: #ffffff;
+    position: absolute;
+}
+.chem-btn {
+    background-color: #DDDDDC;
+    border-color: #E6E6E6;
+    font-weight: 500;
+    color: rgba(22, 22, 22, 0.89);
+    border-radius: 0px !important;
+    margin-bottom: -1px;
+    right: -3px !important;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    vertical-align: middle;
+    padding: 4px 8px;
+    width: 35px;
+    height: 35px;
+}
+.chem-btn:focus.pencil, .chem-btn:hover.pencil, .pencil.active {
+    color: #008FFF;
+}
+.chem-btn:focus, .chem-btn:hover {
+    border-color: #ffffff;
+}
+.chem-btn.active {
+    background-color: #ffffff;
+    border: 1px inset #ffffff;
+    text-shadow: 0px 0px 1px grey;
+}
+.chem-btn.disable > .toolbaricons, .chem-btn.disable > .glyphicon {
+    color: darkgray;
+}
+.chem-btn.disable:focus, .chem-btn.disable:hover, .chem-btn.disable:active {
+    background-color: #DDDDDC;
+    border-color: #E6E6E6;
+    box-shadow: none;
+}
+.chem-btn:focus > .chemglyph, .chem-btn:hover > .chemglyph {
+    color: #008FFF;
+}
+.chem-btn.active > .chemglyph, .chem-btn.toolbar:active {
+    color: #008FFF;
+}
+.chem-btn > .glyphicon-remove {
+    color: red;
+}
+.chem-btn.active > .glyphicon-remove {
+    text-shadow: 1px 1px 1px grey;
+}
+input.file.hidden {
+    opacity: 0;
+    position: relative;
+    text-align: right;
+    z-index: 2;
+}
+canvas{
+    position: absolute;
+    z-index: 1
+}
+.custom-caret {
+    border-color: #000000 rgba(0, 0, 0, 0) -moz-use-text-color;
+    border-style: solid solid dotted;
+    border-width: 4px 4px 0;
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: bottom;
+    width: 0;
+}

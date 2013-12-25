@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>ChemCanvasJS</title>
+        <link href="styles/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" media="screen" href="styles/main.css">
+        <link rel="stylesheet" media="screen" href="styles/chem-styles.css">
+        <link rel="stylesheet" media="screen" href="styles/chem/css/chem-icons.css">
+        <link rel="stylesheet" media="screen" href="styles/chem/css/chem-tools.css">
+        <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script src="styles/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/chemcanvas-libs.js" type="text/javascript"></script>
+        <script src="js/chemcanvas.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function() {
+                var sketch = new ChemCanvas.Canvas("chem_canvas", 0, 450);
+            })
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="canvas_container">
+                <canvas id="chem_canvas"></canvas>
+            </div>
+        </div>
+    </body>
+</html>

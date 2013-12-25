@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'toolbarglyphsregular';
+    src: url('../fonts/toolbar-icons-webfont.eot');
+    src: url('../fonts/toolbar-icons-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/toolbar-icons-webfont.woff') format('woff'),
+    url('../fonts/toolbar-icons-webfont.ttf') format('truetype'),
+    url('../fonts/toolbar-icons-webfont.svg#toolbar-icons-webfont') format('svg')
+}.toolbaricons:before {
+    font-family: 'toolbarglyphsregular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    position: relative;
+    top: 2px;
+    left: -2px;
+    text-align: center;
+    vertical-align: middle;
+    display:block;
+    line-height: 1;
+}.toolbaricons-undo:before {
+    content: "a";
+}.toolbaricons-redo:before {
+    content: "b";
+}.toolbaricons-copy:before {
+    content: "c";
+    font-size: 24px;
+    left: -3px;
+    top: 3px;
+}.toolbaricons-paste:before {
+    content: "d";
+}.toolbaricons-cut:before {
+    content: "e";
+}.toolbaricons-save:before {
+    content: "f";
+}.toolbaricons-open:before {
+    content: "g";
+}.toolbaricons-import:before {
+    content: "h";
+    font-size: 24px;
+    left: -3px;
+    top: 3px;
+}.toolbaricons-export:before {
+    content: "i";
+    font-size: 24px;
+    left: -2px;
+    top: 3px;
+}.toolbaricons-new:before {
+    content: "j";
+    font-size: 24px;
+    left: -2px;
+    top: 3px;
+}.toolbaricons-print:before {
+    content: "k";
+    font-size: 22px;
+    left: -2px;
+    top: 3px
+}.toolbaricons-exit:before {
+    content: "l";
+    font-size: 25px;
+    left: -3px;
+    top: 1px;
+}
+
+
+
