@@ -18,7 +18,9 @@ Things that are implemented that you might find useful (some may not be yet avai
 3. Exporting SVG nodes. ChemCanvas is able to import these svgs as the molecules that they were which can be useful in cases were you need to support editing.
 4. Print the whole drawing at the maximum resolution of your printer (SVG printing).
 5. Fully interactive periodic table.
-6. ChemCanvas is able to find stereogenic centers and assign them R or S descriptors according to the CIP Rules. Although the algorithm is already written and extensivelly tested in its ability to correctly assign priorities(see CIP Rules in wikipedia) there are minor final issues to take care of still. Please note that rules 5 of the CIP Rules which mainly deal with pseudo-chirality is not taken into acount in the present implementation.  
+6. ChemCanvas is able to find stereogenic centers and assign them R or S descriptors according to the CIP Rules. Although the algorithm is already written and extensivelly tested in its ability to correctly assign priorities(see CIP Rules in wikipedia) there are minor final issues to take care of still. Please note that rules 5 of the CIP Rules which mainly deal with pseudo-chirality is not taken into acount in the present implementation.
+
+  
 
 ![ChemCanvas screenshot](/chemcanvas.png "ChemCanvas screenshot")
 
